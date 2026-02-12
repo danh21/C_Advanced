@@ -1,6 +1,6 @@
 # 📦 Project Name
 
-> Image filtering in image processing.
+> C programs.
 
 ---
 
@@ -20,15 +20,13 @@
 
 ## 📝 About
 
-> This is a simple tool to filter image by many types.
+> All of concepts about C programming.
 
 ---
 
 ## ✨ Features
 
-- ✅ Add noise with density (Gaussian, Poisson, Salt & Pepper, Speckle)
-- ✅ Noise removal filter by size
-- ✅ Enhancement
+- ✅ struct (sizeof)
 
 ---
 
@@ -37,20 +35,19 @@
 ### Prerequisites
 
 - List software dependencies or system requirements here:
-  - MATLAB
+  - C
+  - gcc
+  - VSCode (C, Code Runner extensions)
 
 ### Source
 
-- *.fig: design GUI
-- *.m: main app
+- <folder>/*.c: source code
+- <folder>/*.h: header files
 
 ### Usage
 
-- Open file *.m in MATLAB
-- Change folder to location containing source code
-- Run
-- When app window opens, choose image file first
-- Apply custom image filters (fill mandatory parameters) and see results 
+- Open file *.c
+- Ctrl + Alt + N to run program
 
 ### Reference
 
