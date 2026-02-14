@@ -27,6 +27,7 @@
 ## ✨ Features
 
 - ✅ struct (sizeof)
+- ✅ pointer (sizeof pointer, data pointer, pointer to array)
 
 ---
 
