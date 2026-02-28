@@ -28,6 +28,8 @@
 
 - ✅ struct (sizeof)
 - ✅ pointer (sizeof pointer, data pointer, pointer to array)
+- ✅ string (reverse, copy)
+- ✅ math (armstrong num)
 
 ---
 
@@ -47,8 +49,11 @@
 
 ### Usage
 
-- Open file *.c
-- Ctrl + Alt + N to run program
+- Use Bash shell
+- cd to source folder
+- make - to build
+- ./main.exe - to run app
+- make clean - to clear output
 
 ### Reference
 
