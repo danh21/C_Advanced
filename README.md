@@ -29,7 +29,7 @@
 - ✅ struct (sizeof)
 - ✅ pointer (sizeof pointer, data pointer, pointer to array)
 - ✅ string (reverse, copy)
-- ✅ math (armstrong num)
+- ✅ math (verify number)
 
 ---
 
