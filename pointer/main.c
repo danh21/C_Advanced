@@ -33,26 +33,33 @@ int main() {
 
 
     /* pointer to 2D array */
-    int b[2][2] = {{5,6,},{7,8}};
+    // int b[2][2] = {{5,6,},{7,8}};
 
-    printf("\nb[0][0]:\n");
-    printf("Address of b: %p\n", (void*)b);         // x
-    printf("Address of b[0]: %p\n", (void*)b[0]);   // x      
-    printf("Address of *b: %p\n", (void*)*b);       // x
-    printf("b[0][0] = %d\n", **b);   //5
+    // printf("\nb[0][0]:\n");
+    // printf("Address of b: %p\n", (void*)b);         // x
+    // printf("Address of b[0]: %p\n", (void*)b[0]);   // x      
+    // printf("Address of *b: %p\n", (void*)*b);       // x
+    // printf("b[0][0] = %d\n", **b);   //5
 
-    printf("\nb[0][1]:\n");
-    printf("Address of *b+1: %p\n", (void*)(*b + 1));       // x + 4(sizeof(int))
-    printf("Address of b[0]+1: %p\n", (void*)(b[0] + 1));   // x + 4(sizeof(int))
-    printf("*(*b + 1) = %d\n", *(*b + 1));      //6
-    printf("*(b[0] + 1) = %d\n", *(b[0] + 1));  //6
+    // printf("\nb[0][1]:\n");
+    // printf("Address of *b+1: %p\n", (void*)(*b + 1));       // x + 4(sizeof(int))
+    // printf("Address of b[0]+1: %p\n", (void*)(b[0] + 1));   // x + 4(sizeof(int))
+    // printf("*(*b + 1) = %d\n", *(*b + 1));      //6
+    // printf("*(b[0] + 1) = %d\n", *(b[0] + 1));  //6
 
-    printf("\nb[1][0]:\n");
-    printf("Address of b+1: %p\n", (void*)(b + 1));         // x + 8(sizeof(b[0]))
-    printf("Address of b[1]: %p\n", (void*)b[1]);           // x + 8(sizeof(b[0]))
-    printf("Address of *(b+1): %p\n", (void*)*(b + 1));     // x + 8(sizeof(b[0]))
-    printf("*(*(b + 1)) = %d\n", *(*(b + 1)));  //7
-    printf("**(b + 1) = %d\n", **(b + 1));      //7
+    // printf("\nb[1][0]:\n");
+    // printf("Address of b+1: %p\n", (void*)(b + 1));         // x + 8(sizeof(b[0]))
+    // printf("Address of b[1]: %p\n", (void*)b[1]);           // x + 8(sizeof(b[0]))
+    // printf("Address of *(b+1): %p\n", (void*)*(b + 1));     // x + 8(sizeof(b[0]))
+    // printf("*(*(b + 1)) = %d\n", *(*(b + 1)));  //7
+    // printf("**(b + 1) = %d\n", **(b + 1));      //7
+
+
+
+    // "hello" is a string literal, which is stored in read-only memory
+    char *s = "hello";
+    s[0] = 'H';
+    printf("%s\n", s);  //undefined behavior (segmentation fault)
 
     return 0;
 }

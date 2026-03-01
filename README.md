@@ -27,7 +27,7 @@
 ## ✨ Features
 
 - ✅ struct (sizeof)
-- ✅ pointer (sizeof pointer, data pointer, pointer to array)
+- ✅ pointer (sizeof pointer, data pointer, pointer to array,...)
 - ✅ string (reverse, copy)
 - ✅ math (verify number)
 
