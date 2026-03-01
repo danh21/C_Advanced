@@ -3,3 +3,4 @@
 #include <math.h>
 
 bool isArmstrong(int n);
+bool isPowerOfTwo(int n);
