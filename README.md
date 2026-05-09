@@ -26,6 +26,7 @@
 
 ## ✨ Features
 
+- ✅ array
 - ✅ struct (sizeof)
 - ✅ pointer (sizeof pointer, data pointer, pointer to array,...)
 - ✅ string (reverse, copy)
@@ -49,11 +50,15 @@
 
 ### Usage
 
-- Use Bash shell
-- cd to source folder
-- make - to build
-- ./main.exe - to run app
-- make clean - to clear output
+- Use Makefile manually
+  - Use Bash shell
+  - cd to source folder
+  - make - to build
+  - ./main.exe - to run app
+  - make clean - to clear output
+- Use Runner extension of VSCode
+  - Open .c file
+  - Ctrl + Alt + N
 
 ### Reference
 
